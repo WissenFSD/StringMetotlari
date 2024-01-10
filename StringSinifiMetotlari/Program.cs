@@ -74,3 +74,13 @@ string stringMetin = " Bu bir string ifadedir ";
 
 
 //TrimStart ve TrimEnd bu metotlarda karakterin başındaki yada sonundaki boşluk ifadelerini kaldırır
+
+// Girilen küçük harfi büyük harfe çeviriniz
+//for (int i = 0; i < 100; i++)
+//{
+//    Console.WriteLine("Küçük harf giriniz");
+//    Console.WriteLine(Console.ReadLine().ToUpper());
+//}
+
+
+// Ekrandan girilen bir yazının tersini ekrana yazdırın
