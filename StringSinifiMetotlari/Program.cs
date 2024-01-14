@@ -4,7 +4,7 @@
 // String sınıfı metotları ile string üzerinde bazı işlemleri yapabileceksiniz
 // Bu işlemler ;
 
-string stringMetin = " Bu bir string ifadedir ";
+string stringMetin = " Bu, bir, string, ifadedir ";
 
 // contans bir metinin içerisinde bir harf yada bir kelime arama için kullanılır.
 //bool isContains =stringMetin.Contains("iki");
@@ -58,14 +58,18 @@ string stringMetin = " Bu bir string ifadedir ";
 
 
 
-//// Sonra bakalım
-//string[] newString = stringMetin.Split('-', StringSplitOptions.None, StringSplitOptions.TrimEntries);
-//for (int i = 0; i < newString.Length; i++)
-//{
+// Sonra bakalım
 
-//    Console.WriteLine(newString[i]);
-//}
+// sprint fonsiyonu içerisine metni hangi ögeden ayırmak istiyorsak onu yazmalıyız ?
+// bizim ayırdığımız yazı boşluk karakterleri vardı bizde boşluktan ayırdık.
 
+string[] newString = stringMetin.Split(", ");
+
+for (int i = 0; i < newString.Length; i++)
+{
+    Console.WriteLine(newString[i]);
+}
+Console.ReadLine();
 
 //Trim
 //Trim metinsel değişkenin üzerindeki son ve baştaki boşluk karakterini temizler
@@ -84,3 +88,4 @@ string stringMetin = " Bu bir string ifadedir ";
 
 
 // Ekrandan girilen bir yazının tersini ekrana yazdırın
+
